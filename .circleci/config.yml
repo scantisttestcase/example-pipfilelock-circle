@@ -11,3 +11,4 @@ jobs:
           command: |
             pip install pipenv
             pipenv run pip freeze
+            pip freeze
