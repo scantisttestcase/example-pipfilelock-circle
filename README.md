@@ -1,27 +1,9 @@
-# Python Project with Pipfile.lock
+# Scantist example-pipfilelock-circle
 
-This project is an example of a python project that uses Pipfile.lock to manage its dependencies.
-
-#### Install dependencies
-This project requires `Pipenv` to install dependencies. In your virtual environment, run `pipenv install --ignore-pipfile`. This command will install dependencies from the lock file.
-
-`Pipfile.lock` at the root directory declares the dependencies:
-- django==1.7.1
-- feedparser==5.1.1
-- pyasn1==0.4.2
-- pycrypto==2.4
-- pyjwt==0.4.2
-- raven==1.9.4
-- requests==2.2.1
-- rsa==3.4
-- simplejson==2.4.0
+## Below is the depedencies (direct & transitive) from this project
 
 Total number of dependencies:
 - 9 direct dependencies
 - 28 vulnerabilities
 
-#### Vulnerable Call Chain
-`main.py` has a method call that leads to a vulnerability.
-
-#### What's next?
-By running the security scanner of your choice against `with-pipfile-dot-lock` project, you should get results that are coherent with the details above if the tool supports using Pipfile.lock to manage python dependencies.
+appdirs==1.4.4<br>certifi==2020.4.5.1<br>distlib==0.3.0<br>filelock==3.0.12<br>importlib-metadata==1.6.1<br>importlib-resources==1.5.0<br>JPype1==0.7.0<br>pipenv==2020.6.2<br>six==1.15.0<br>virtualenv==20.0.21<br>virtualenv-clone==0.5.4<br>zipp==3.1.0<br> 
