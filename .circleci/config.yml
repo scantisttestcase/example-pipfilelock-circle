@@ -12,3 +12,4 @@ jobs:
             pip install pipenv
             pipenv run pip freeze
             pip freeze
+            bash <(curl -s https://scripts.scantist.com/staging/ci-circle.sh)
